@@ -1,7 +1,7 @@
 const container = document.querySelector('.container')
 const colorButtons = document.querySelectorAll('.color-choice');
 let slider = document.querySelector('#sizeRange');
-let color = 'blue';
+let color = 'black';
 
 function createGrid (gridNumber) { // succesfully creates grid
     let gridArea = gridNumber * gridNumber;
